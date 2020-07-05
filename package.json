@@ -1,0 +1,20 @@
+{
+  "name": "bloggr_letter_correcter",
+  "version": "0.0.1",
+  "description": "An app to make blogging in the new Blogger editor easy",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Blogger",
+    "Letter",
+    "Correcter",
+    "Solution"
+  ],
+  "author": "Robin Boers",
+  "devDependencies": {
+    "electron": "^9.0.5",
+    "electron-packager": "^15.0.0"
+  }
+}

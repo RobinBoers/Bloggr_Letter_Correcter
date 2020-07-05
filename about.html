@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+    <!-- <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+    <title>About Bloggr - Letter Correcter</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <div class="sidenav">
+      <h2><img class="logo" src="https://code.geheimesite.nl/beta/bloggr/bloggerlogo.png">Bloggr</h2>
+      <a href="index.html">Editor</a>
+      <a href="#">About</a>
+      <!-- <p style="clear:both;" onclick="close()"><a href="#">Close</a></p> -->
+    </div>
+
+    <main>
+      <h2>About Bloggr - Letter Correcter</h2>
+      <p>
+        Bloggr - Letter Correcter is a tool used for making nice blogposts.<br>
+        Since the Blogger update, the blogeditor doesn't work properly anymore.<br>
+        This tool solves that. It gives you an easy to understand editor, where you can write your blogpost. <br>
+        Then, when you're finished, you click te FINISH button, and copy the code over to the blogger code frame.
+      </p>
+      <h3>Software version</h3>
+      <table>
+          <tr><td><b>Bloggr</b></td><td>v0.01-beta</td></tr>
+          <tr><td><b>Node.js</b></td><td><span id="node-version"></span></td></tr>
+          <tr><td><b>Chromium &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;</b></td><td><span id="chrome-version"></span></td></tr>
+          <tr><td><b>Electron</b></td><td><span id="electron-version"></span></td></tr>
+          
+      </table>
+  
+      <!-- You can also require other files to run in this process -->
+      <script src="./renderer.js"></script>
+      <script src="./main.js"></script>
+  
+      <!-- "repository": "https://github.com/RobinBoers/BloggrStyleTemplateMaker", -->
+    </main>
+</body>
+</html>
+
